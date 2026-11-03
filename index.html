@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>한경엽 클래식기타 스튜디오 (한경엽클래식기타교습소) | 대전 동구 클래식기타 레슨</title>
-  <meta name="description" content="대전 동구 계족로 한경엽클래식기타교습소. 독일 베를린·브레멘 국립음대 출신 한경엽 원장의 1:1 클래식기타 레슨. 초등학교 1학년부터 성인까지, 취미반·중급/고급반·입시/유학반. 상·하반기 정기연주회." />
-  <meta name="keywords" content="대전 클래식기타, 대전 기타레슨, 동구 기타학원, 대동 기타, 클래식기타 입시, 어린이 기타레슨, 한경엽클래식기타교습소" />
+  <meta name="description" content="대전 동구 계족로 한경엽클래식기타교습소. 독일 베를린·브레멘 국립음대 출신 한경엽 원장의 1:1 클래식기타 레슨. 초등학교 1학년부터 성인까지, 취미반·중급/고급반·입시/유학반. 매년 정기연주회." />
+  <meta name="keywords" content="대전 클래식기타, 대전 기타레슨, 동구 기타학원, 클래식기타 입시, 어린이 기타레슨, 한경엽클래식기타교습소" />
   <meta property="og:title" content="한경엽 클래식기타 스튜디오 | 대전 동구" />
   <meta property="og:description" content="초등학교 1학년부터 성인까지, 독일 유학파 전문 연주자에게 배우는 1:1 맞춤 클래식기타 레슨" />
   <meta property="og:locale" content="ko_KR" />
@@ -30,7 +30,7 @@
     "foundingDate": "2014-11-17",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "계족로 138, 2층 201호 (대동)",
+      "streetAddress": "계족로138 2층",
       "addressLocality": "동구",
       "addressRegion": "대전광역시",
       "postalCode": "34659",
@@ -417,7 +417,7 @@
     .gallery { background: var(--cream-50); }
     .concerts {
       position: relative; isolation: isolate; overflow: hidden; border-radius: 20px;
-      display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center;
+      display: grid; grid-template-columns: 1.4fr 0.9fr; gap: 40px; align-items: center;
       padding: clamp(36px, 5vw, 60px); color: var(--cream-50); margin-bottom: 72px;
     }
     .concerts > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; filter: sepia(0.4) brightness(0.5); }
@@ -452,20 +452,7 @@
     .g-item.tall { grid-row: span 2; }
     .g-item.big { grid-column: span 2; grid-row: span 2; }
     .g-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.1s var(--ease), filter 0.6s; filter: saturate(0.95); }
-    .g-item::after {
-      content: ""; position: absolute; inset: 0;
-      background: linear-gradient(180deg, transparent 45%, rgba(20, 14, 10, 0.78) 100%);
-      opacity: 0.65; transition: opacity 0.5s var(--ease);
-    }
-    .g-caption {
-      position: absolute; left: 20px; right: 20px; bottom: 16px; z-index: 1; text-align: left; color: var(--cream-50);
-      transform: translateY(6px); transition: transform 0.5s var(--ease);
-    }
-    .g-caption strong { display: block; font-family: var(--font-serif); font-size: 1.06rem; font-weight: 700; }
-    .g-caption span { font-family: var(--font-latin); font-style: italic; font-size: 0.95rem; color: var(--brass-light); letter-spacing: 0.04em; }
     .g-item:hover img, .g-item:focus-visible img { transform: scale(1.06); filter: saturate(1.05); }
-    .g-item:hover::after, .g-item:focus-visible::after { opacity: 1; }
-    .g-item:hover .g-caption, .g-item:focus-visible .g-caption { transform: none; }
     .g-item:focus-visible { outline: 2px solid var(--brass); outline-offset: 3px; }
 
     .lightbox {
@@ -474,8 +461,7 @@
     }
     .lightbox.is-open { opacity: 1; visibility: visible; }
     .lightbox figure { margin: 0; max-width: 1200px; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px; }
-    .lightbox img { max-height: calc(100vh - 180px); width: auto; max-width: 100%; border-radius: 8px; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6); }
-    .lightbox figcaption { color: var(--cream-100); font-family: var(--font-serif); font-size: 1rem; text-align: center; }
+    .lightbox img { max-height: calc(100vh - 140px); width: auto; max-width: 100%; border-radius: 8px; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6); }
     .lb-btn {
       position: absolute; width: 48px; height: 48px; border-radius: 50%; border: 1px solid rgba(226, 193, 150, 0.4);
       background: rgba(31, 22, 16, 0.6); color: var(--cream-50); display: grid; place-items: center; transition: background 0.3s, border-color 0.3s;
@@ -514,18 +500,18 @@
 
     .contact-list { display: grid; gap: 14px; }
     .contact-item {
-      display: flex; gap: 18px; align-items: center; padding: 22px 24px; border-radius: 14px;
-      background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(199, 155, 103, 0.18);
+      display: flex; gap: 18px; align-items: center; padding: 22px 24px; border-radius: 14px; width: 100%; text-align: left;
+      background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(199, 155, 103, 0.18); color: inherit;
       transition: background 0.3s, border-color 0.3s, transform 0.3s var(--ease);
     }
-    a.contact-item:hover { background: rgba(199, 155, 103, 0.1); border-color: rgba(199, 155, 103, 0.45); transform: translateX(4px); }
+    a.contact-item:hover, button.contact-item:hover { background: rgba(199, 155, 103, 0.1); border-color: rgba(199, 155, 103, 0.45); transform: translateX(4px); }
     .contact-icon { flex: none; width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: rgba(199, 155, 103, 0.14); color: var(--brass-light); }
     .contact-icon svg { width: 21px; height: 21px; }
     .contact-icon.kakao { background: #fee500; color: #3c1e1e; }
     .contact-label { font-size: 0.8rem; letter-spacing: 0.12em; color: rgba(245, 238, 227, 0.55); }
     .contact-value { font-family: var(--font-serif); font-size: 1.12rem; color: var(--cream-50); line-height: 1.5; }
     .contact-item .arrow { margin-left: auto; color: var(--brass); opacity: 0.7; transition: transform 0.3s var(--ease); }
-    a.contact-item:hover .arrow { transform: translateX(4px); opacity: 1; }
+    a.contact-item:hover .arrow, button.contact-item:hover .arrow { transform: translateX(4px); opacity: 1; }
     .contact-item .arrow svg { width: 18px; height: 18px; }
     .contact-cta {
       margin-top: 6px; padding: 28px; border-radius: 14px; text-align: center;
@@ -620,10 +606,6 @@
 
       .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 160px; gap: 10px; }
       .g-item.wide, .g-item.big { grid-column: span 2; }
-      .g-caption { left: 14px; bottom: 12px; }
-      .g-caption strong { font-size: 0.95rem; }
-      .g-caption span { display: none; }
-
       .lightbox { padding: 60px 12px; }
       .lb-prev, .lb-next { top: auto; bottom: 18px; transform: none; }
       .lb-prev { left: calc(50% - 60px); }
@@ -644,11 +626,11 @@
         transform: translateY(110%); transition: transform 0.4s var(--ease);
       }
       .mobile-cta.is-visible { transform: none; }
-      .mobile-cta a {
-        display: flex; align-items: center; justify-content: center; gap: 6px; padding: 12px 6px; border-radius: 10px;
-        font-size: 0.88rem; font-weight: 500; color: var(--cream-50); background: rgba(255, 255, 255, 0.07);
+      .mobile-cta a, .mobile-cta button {
+        display: flex; align-items: center; justify-content: center; gap: 6px; padding: 12px 6px; border-radius: 10px; border: 0;
+        font-size: 0.88rem; font-weight: 500; color: var(--cream-50); background: rgba(255, 255, 255, 0.07); cursor: pointer;
       }
-      .mobile-cta a svg { width: 17px; height: 17px; }
+      .mobile-cta a svg, .mobile-cta button svg { width: 17px; height: 17px; }
       .mobile-cta a.primary { background: var(--brass); color: var(--walnut-950); }
     }
 
@@ -696,7 +678,7 @@
 
       <div class="container">
         <div class="hero-content">
-          <p class="hero-eyebrow">Since 2014 · <span>대전 동구</span></p>
+          <p class="hero-eyebrow">Since 2014</p>
           <h1 class="hero-title">
             아름다운 선율의 울림,
             <strong><span class="accent">한경엽</span> 클래식기타 스튜디오</strong>
@@ -707,7 +689,7 @@
           </p>
           <p class="hero-badges">
             <span>초등학교 1학년부터 성인까지</span>
-            <span>상·하반기 정기연주회</span>
+            <span>매년 정기연주회</span>
           </p>
           <div class="hero-actions">
             <a href="#contact" class="btn btn-primary">
@@ -746,14 +728,14 @@
 
         <div class="about-copy">
           <p class="eyebrow reveal">About the Studio</p>
-          <h2 class="section-title reveal" data-delay="1">오롯이 기타의 울림에<br />집중할 수 있는 공간</h2>
+          <h2 class="section-title reveal" data-delay="1">아름다운 기타의 울림에<br />집중할 수 있는 공간</h2>
           <p class="reveal" data-delay="1">
-            따뜻한 원목 마루와 은은한 조명, 정갈하게 정돈된 악보 서가.
+            따뜻한 나무마루와 은은한 조명, 정갈하게 정돈된 악보 서가.
             2014년부터 대전 동구에서 자리를 지켜 온 한경엽 클래식기타 스튜디오는
             연주자가 소리 하나하나에 귀 기울일 수 있도록 차분하고 아늑하게 꾸며진 클래식기타 전문 공간입니다.
           </p>
           <p class="reveal" data-delay="2">
-            유리 진열장에 보관된 기타들, 악보대와 발받침이 갖춰진 연습 공간, 여럿이 함께 합주할 수 있는 별도의 룸까지 —
+            악보대와 발받침이 갖춰진 연습 공간, 여럿이 함께 합주할 수 있는 별도의 룸까지 —
             레슨이 끝난 뒤에도 오래 머물고 싶은, 음악을 위한 환경을 준비했습니다.
           </p>
           <blockquote class="about-quote reveal" data-delay="2">
@@ -773,7 +755,7 @@
               <span class="feature-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M12 3v18"/><circle cx="8" cy="14" r="1.6"/><circle cx="16" cy="14" r="1.6"/><path d="M8 12.4V6.5M16 12.4V6.5"/></svg>
               </span>
-              <div><h3>기타 전용 수장고</h3><p>소중한 악기를 안전하게 보관하는 유리 진열장</p></div>
+              <div><h3>기타 전용 수장고</h3></div>
             </li>
             <li class="feature reveal" data-delay="1">
               <span class="feature-icon" aria-hidden="true">
@@ -877,7 +859,7 @@
             </li>
             <li>
               <span class="basics-no">III</span>
-              <div><h3>음악적 감각</h3><p>소리를 듣고 표현하는 힘을 기르는 체계적 커리큘럼</p></div>
+              <div><h3>음악적 표현과 음악이론</h3><p>기초부터 알려주는 음악적 지식과 음악이론, 그리고 음악을 표현하는 방법을 배울 수 있는 체계적인 커리큘럼</p></div>
             </li>
           </ul>
         </div>
@@ -956,21 +938,16 @@
           <img src="./images/studio-practice-area.jpg" alt="" aria-hidden="true" loading="lazy" width="2000" height="1500" />
           <div class="concerts-copy">
             <p class="concerts-label">Regular Concerts</p>
-            <h3>일 년에 두 번,<br />수강생이 주인공이 되는 무대</h3>
+            <h3>매년 열리는<br />수강생이 주인공이 되는 무대</h3>
             <p>
-              매년 상반기와 하반기, 두 차례 정기연주회를 엽니다.
+              매년 정기연주회를 엽니다.
               레슨에서 준비한 곡을 무대에서 연주하며 연습의 목표를 세우고, 무대 경험과 성취감을 함께 쌓아 갑니다.
             </p>
           </div>
           <ul class="concerts-seasons">
             <li class="season">
-              <span class="season-tag">First Half</span>
-              <strong>상반기 정기연주회</strong>
-              <p>수강생 연주 무대</p>
-            </li>
-            <li class="season">
-              <span class="season-tag">Second Half</span>
-              <strong>하반기 정기연주회</strong>
+              <span class="season-tag">Annual Concert</span>
+              <strong>매년 정기연주회</strong>
               <p>수강생 연주 무대</p>
             </li>
           </ul>
@@ -979,29 +956,23 @@
         <h3 class="gallery-sub reveal">스튜디오 공간 <span>사진을 누르면 크게 볼 수 있습니다.</span></h3>
 
         <div class="gallery-grid">
-          <button type="button" class="g-item big reveal" data-full="./images/guitar-cabinets.jpg" data-caption="기타 수장고 — 유리 진열장에 보관된 클래식기타">
-            <img src="./images/guitar-cabinets.jpg" alt="유리 진열장에 보관된 클래식기타들" loading="lazy" width="2000" height="1500" />
-            <span class="g-caption"><strong>기타 수장고</strong><span>Guitar Collection</span></span>
+          <button type="button" class="g-item big reveal" data-full="./images/guitar-cabinets.jpg" aria-label="스튜디오 사진 크게 보기">
+            <img src="./images/guitar-cabinets.jpg" alt="스튜디오 내부 기타 진열장" loading="lazy" width="2000" height="1500" />
           </button>
-          <button type="button" class="g-item tall reveal" data-delay="1" data-full="./images/studio-overview-portrait.jpg" data-caption="메인 레슨실 — 악보대와 연습 의자">
-            <img src="./images/studio-overview-portrait.jpg" alt="악보대와 흰 의자가 놓인 메인 레슨실" loading="lazy" width="1500" height="2000" />
-            <span class="g-caption"><strong>메인 레슨실</strong><span>Lesson Room</span></span>
+          <button type="button" class="g-item tall reveal" data-delay="1" data-full="./images/studio-overview-portrait.jpg" aria-label="스튜디오 사진 크게 보기">
+            <img src="./images/studio-overview-portrait.jpg" alt="스튜디오 메인 레슨실" loading="lazy" width="1500" height="2000" />
           </button>
-          <button type="button" class="g-item reveal" data-delay="2" data-full="./images/score-corner.jpg" data-caption="악보 서가와 연주 공간">
-            <img src="./images/score-corner.jpg" alt="스탠드 조명 아래 악보대와 악보 서가" loading="lazy" width="2000" height="1500" />
-            <span class="g-caption"><strong>악보 서가</strong><span>Score Library</span></span>
+          <button type="button" class="g-item reveal" data-delay="2" data-full="./images/score-corner.jpg" aria-label="스튜디오 사진 크게 보기">
+            <img src="./images/score-corner.jpg" alt="스튜디오 악보대와 서가" loading="lazy" width="2000" height="1500" />
           </button>
-          <button type="button" class="g-item reveal" data-delay="3" data-full="./images/studio-practice-area.jpg" data-caption="연습 공간 — 악보대와 발받침">
-            <img src="./images/studio-practice-area.jpg" alt="악보대와 발받침이 준비된 연습 공간" loading="lazy" width="2000" height="1500" />
-            <span class="g-caption"><strong>연습 공간</strong><span>Practice Area</span></span>
+          <button type="button" class="g-item reveal" data-delay="3" data-full="./images/studio-practice-area.jpg" aria-label="스튜디오 사진 크게 보기">
+            <img src="./images/studio-practice-area.jpg" alt="스튜디오 연습 공간" loading="lazy" width="2000" height="1500" />
           </button>
-          <button type="button" class="g-item wide reveal" data-delay="1" data-full="./images/studio-overview.jpg" data-caption="스튜디오 전경 — 기타 스탠드와 악보대">
-            <img src="./images/studio-overview.jpg" alt="기타 스탠드와 악보대가 놓인 스튜디오 전경" loading="lazy" width="2000" height="1500" />
-            <span class="g-caption"><strong>스튜디오 전경</strong><span>Studio View</span></span>
+          <button type="button" class="g-item wide reveal" data-delay="1" data-full="./images/studio-overview.jpg" aria-label="스튜디오 사진 크게 보기">
+            <img src="./images/studio-overview.jpg" alt="스튜디오 전경" loading="lazy" width="2000" height="1500" />
           </button>
-          <button type="button" class="g-item wide reveal" data-delay="2" data-full="./images/ensemble-room.jpg" data-caption="앙상블 룸 — 함께 연주하는 합주 공간">
-            <img src="./images/ensemble-room.jpg" alt="여러 개의 의자와 보면대가 배치된 합주 공간" loading="lazy" width="2000" height="1500" />
-            <span class="g-caption"><strong>앙상블 룸</strong><span>Ensemble Room</span></span>
+          <button type="button" class="g-item wide reveal" data-delay="2" data-full="./images/ensemble-room.jpg" aria-label="스튜디오 사진 크게 보기">
+            <img src="./images/ensemble-room.jpg" alt="스튜디오 합주 공간" loading="lazy" width="2000" height="1500" />
           </button>
         </div>
       </div>
@@ -1024,13 +995,13 @@
             </span>
             <h3>한경엽 클래식기타 스튜디오</h3>
             <p class="map-reg">한경엽클래식기타교습소</p>
-            <address class="addr">대전광역시 동구 계족로 138, 2층 201호 (대동)</address>
+            <address class="addr">대전광역시 동구 계족로138 2층</address>
             <div class="map-actions">
               <a class="btn btn-naver" href="https://map.naver.com/p/search/%ED%95%9C%EA%B2%BD%EC%97%BD%ED%81%B4%EB%9E%98%EC%8B%9D%EA%B8%B0%ED%83%80%EA%B5%90%EC%8A%B5%EC%86%8C" target="_blank" rel="noopener">
                 <span class="n-logo" aria-hidden="true">N</span>
                 네이버 지도에서 보기
               </a>
-              <button type="button" class="btn btn-ghost copy-addr" data-address="대전광역시 동구 계족로 138, 2층 201호">주소 복사</button>
+              <button type="button" class="btn btn-ghost copy-addr" data-address="대전광역시 동구 계족로138 2층">주소 복사</button>
             </div>
           </div>
 
@@ -1057,16 +1028,16 @@
               <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </a>
 
-            <a class="contact-item reveal" data-delay="2" data-field="kakao" href="https://open.kakao.com/o/XXXXXXXX" target="_blank" rel="noopener">
+            <button type="button" class="contact-item reveal copy-kakao" data-delay="2" data-kakao="guitar1850">
               <span class="contact-icon kakao" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3.5c-5 0-9 3.2-9 7.1 0 2.5 1.6 4.7 4.1 5.9l-.9 3.4c-.1.3.3.6.6.4l4-2.6c.4 0 .8.1 1.2.1 5 0 9-3.2 9-7.2S17 3.5 12 3.5z"/></svg>
               </span>
               <span>
-                <span class="contact-label">카카오톡 오픈채팅</span><br />
-                <span class="contact-value">카카오톡으로 레슨 문의하기</span>
+                <span class="contact-label">카카오톡 아이디</span><br />
+                <span class="contact-value">guitar1850</span>
               </span>
               <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-            </a>
+            </button>
 
             <div class="contact-item reveal" data-delay="3">
               <span class="contact-icon" aria-hidden="true">
@@ -1109,7 +1080,7 @@
       </div>
       <div class="footer-info">
         <p>한경엽클래식기타교습소 <i></i> 원장 한경엽</p>
-        <p>대전광역시 동구 계족로 138, 2층 201호 (대동)</p>
+        <p>대전광역시 동구 계족로138 2층</p>
         <p>
           <a href="tel:0422218943">042-221-8943</a> <i></i>
           <a href="tel:01039228943">010-3922-8943</a>
@@ -1128,10 +1099,10 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 6.1 6.1l1.4-2.3L20 15.5V19a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z" stroke-linejoin="round"/></svg>
       전화
     </a>
-    <a href="https://open.kakao.com/o/XXXXXXXX" data-field="kakao" target="_blank" rel="noopener">
+    <button type="button" class="copy-kakao" data-kakao="guitar1850">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.5c-5 0-9 3.2-9 7.1 0 2.5 1.6 4.7 4.1 5.9l-.9 3.4c-.1.3.3.6.6.4l4-2.6c.4 0 .8.1 1.2.1 5 0 9-3.2 9-7.2S17 3.5 12 3.5z"/></svg>
       카톡
-    </a>
+    </button>
     <a href="#contact" class="primary">레슨 신청하기</a>
   </div>
 
@@ -1145,7 +1116,6 @@
     </button>
     <figure>
       <img src="" alt="" />
-      <figcaption></figcaption>
     </figure>
     <button class="lb-btn lb-next" type="button" aria-label="다음 사진">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1198,7 +1168,6 @@
       const items = [...document.querySelectorAll('.g-item')];
       const lb = document.querySelector('.lightbox');
       const lbImg = lb.querySelector('img');
-      const lbCap = lb.querySelector('figcaption');
       let current = 0;
       let lastFocus = null;
 
@@ -1207,7 +1176,6 @@
         const item = items[current];
         lbImg.src = item.dataset.full;
         lbImg.alt = item.querySelector('img').alt;
-        lbCap.textContent = item.dataset.caption;
       };
       const open = (i) => {
         lastFocus = document.activeElement;
@@ -1257,6 +1225,28 @@
           copyBtn.textContent = copyBtn.dataset.address;
         }
         setTimeout(() => { copyBtn.textContent = '주소 복사'; }, 2000);
+      });
+
+      const copyKakao = async (btn) => {
+        const id = btn.dataset.kakao;
+        const label = btn.querySelector('.contact-value');
+        try {
+          await navigator.clipboard.writeText(id);
+          if (label) {
+            const prev = label.textContent;
+            label.textContent = '아이디가 복사되었습니다';
+            setTimeout(() => { label.textContent = prev; }, 2000);
+          } else {
+            const prev = btn.childNodes[btn.childNodes.length - 1].textContent;
+            btn.childNodes[btn.childNodes.length - 1].textContent = '복사됨';
+            setTimeout(() => { btn.childNodes[btn.childNodes.length - 1].textContent = prev; }, 2000);
+          }
+        } catch {
+          alert('카카오톡 아이디: ' + id);
+        }
+      };
+      document.querySelectorAll('.copy-kakao').forEach((btn) => {
+        btn.addEventListener('click', () => copyKakao(btn));
       });
 
       document.getElementById('year').textContent = new Date().getFullYear();
