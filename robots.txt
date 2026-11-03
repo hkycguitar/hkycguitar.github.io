@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hkycguitar.github.io/sitemap.xml
