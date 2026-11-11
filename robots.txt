@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://hkycguitar.github.io/sitemap.txt
 Sitemap: https://hkycguitar.github.io/sitemap.xml
